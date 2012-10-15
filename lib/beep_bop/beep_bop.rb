@@ -78,7 +78,7 @@ class BeepBop
 			when /east/i
 				@f = 'NORTH'
 		end
-		return
+		return true
 	end
 
 	# Robot face right
@@ -94,7 +94,7 @@ class BeepBop
 			when /east/i
 				@f = 'SOUTH'
 		end
-		return
+		return true
 	end
 
 end
